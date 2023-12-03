@@ -8,7 +8,7 @@ def convertir_dev(montant, origine_dev, destination_dev):
 
 def ajouter_dev(dévise, taux):
     c = CurrencyRates()
-    c.add_rate("USD", dévise, 1)
+    c.add_rate("USD", dévise, taux)
 
 montant = 17000
 origine_dev = "USD"
